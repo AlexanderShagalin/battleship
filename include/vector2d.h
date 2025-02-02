@@ -9,6 +9,7 @@ public:
     Vector2D(double x = 0, double y = 0);
     double x() const;
     double y() const;
+    friend int operator == (const Vector2D &a1, const Vector2D &a2);
     friend Vector2D operator + (const Vector2D &a1, const Vector2D &a2);
 };
 

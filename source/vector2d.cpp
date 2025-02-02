@@ -14,6 +14,11 @@ double Vector2D::y() const
     return m_y;
 }
 
+int operator == (const Vector2D &a1, const Vector2D &a2)
+{
+    return a1.x() == a2.x() && a1.y() == a2.y();
+}
+
 Vector2D operator + (const Vector2D &a1, const Vector2D &a2)
 {
     return Vector2D(a1.x() + a2.x(), a1.y() + a2.y());
