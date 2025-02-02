@@ -1,19 +1,16 @@
 #ifndef IMOVABLE_H
 #define IMOVABLE_H
 
-#include <utility>
-
-typedef std::pair<int, int> Position;
-typedef std::pair<int, int> Velocity;
+#include "vector2d.h"
 
 class IMovable
 {
 public:
-  IMovable();
+    virtual ~IMovable(){}
 
-  virtual Position getPosition() = 0;  
-  virtual Velocity getVelocity() = 0;
-  virtual void setPosition(Position newPosition) = 0;
+    virtual Vector2D getPosition() = 0;
+    virtual Vector2D getVelocity() = 0;
+    virtual void setPosition(Vector2D newPosition) = 0;
 };
 
 #endif // IMOVABLE_H
