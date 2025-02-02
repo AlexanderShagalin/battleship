@@ -1,3 +1,4 @@
+#include <stdexcept>
 #include "moveforward.h"
 
  MoveForward::MoveForward(std::shared_ptr<IMovable> obj)
@@ -7,5 +8,8 @@
 
 void MoveForward::execute()
 {
-    m_obj->setPosition(m_obj->getPosition() + m_obj->getVelocity());
+    if(m_obj != nullptr)
+        m_obj->setPosition(m_obj->getPosition() + m_obj->getVelocity());
+    else
+        throw std::runtime_error("MoveForward: nullptr exception");
 }
