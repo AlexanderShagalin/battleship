@@ -1,7 +1,0 @@
-/home/enxy/projects/git/battleship/build/Desktop-Release/CMakeFiles/battleship.dir
-/home/enxy/projects/git/battleship/build/Desktop-Release/CMakeFiles/edit_cache.dir
-/home/enxy/projects/git/battleship/build/Desktop-Release/CMakeFiles/rebuild_cache.dir
-/home/enxy/projects/git/battleship/build/Desktop-Release/CMakeFiles/list_install_components.dir
-/home/enxy/projects/git/battleship/build/Desktop-Release/CMakeFiles/install.dir
-/home/enxy/projects/git/battleship/build/Desktop-Release/CMakeFiles/install/local.dir
-/home/enxy/projects/git/battleship/build/Desktop-Release/CMakeFiles/install/strip.dir
